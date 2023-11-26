@@ -109,3 +109,24 @@ Please cite as following if you think this work is helpful for you:
 }
 ```
 
+
+
+# New Section
+
+This is the part of information added after cloning the repository.
+
+## How to setup
+
+Install [pytorch locally](https://pytorch.org/get-started/locally/).  
+```
+pip install -r requirements.txt
+```
+
+## How to run
+
+A minimal example can be executed as follow:
+
+```
+PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python sh train_smac.sh
+```
+Note: The current code has issues with the protocol buffer.
